@@ -1,0 +1,14 @@
+{
+	"type": "mashup",
+	"name": "JwtProxyRedirect",
+	"description": "Creates a valid session from an anonymous user with a valid Bearer in URL",
+	"version": "1.0.0",
+	"author": "Thomas Häning, Konrad Mattheis (qlik2go)",
+	"homepage": "",
+	"keywords": "qlik-sense, mashup",
+	"license": "MIT",
+	"repository": "",
+	"dependencies": {
+		"qlik-sense": ">=3.0.x"
+	}
+}
