@@ -1,6 +1,7 @@
 var hrefArr = window.location.href.split("?");
 var bearer = hrefArr[1].split("=")[1];
 $.getJSON( "./config.json", function( config ) {
+	console.log("CONFIG", config);
 	$.ajax({
 		type: "GET",
 		beforeSend: function(request) {
